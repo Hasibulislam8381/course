@@ -15,3 +15,10 @@
     3.php artisan key:generate
     4.php artisan migrate
     5.php artisan serve
+
+
+--Hostinger htaccess
+<IfModule mod_rewrite.c> 
+   RewriteEngine On
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
